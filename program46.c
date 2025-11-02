@@ -1,0 +1,29 @@
+//Q46: Write a program to print the following pattern:
+
+
+/*
+Sample Test Cases:
+Input 1:
+
+Output 1:
+*****
+*****
+*****
+*****
+*****
+
+*/
+#include <stdio.h>
+
+int main() {
+    int i, j;
+    // Outer loop for 5 rows
+    for (i = 1; i <= 5; i++) {
+        // Inner loop for 5 columns
+        for (j = 1; j <= 5; j++) {
+            printf("*");
+        }
+        printf("\n"); // Move to next line after each row
+    }
+    return 0;
+}
